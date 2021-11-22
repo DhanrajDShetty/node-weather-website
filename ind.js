@@ -1,6 +1,5 @@
 
 
-console.log('Client side javascript')
 
 
 const form = document.querySelector('form')
