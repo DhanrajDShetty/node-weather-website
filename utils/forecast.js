@@ -8,7 +8,7 @@ const loc = (lat,long,callback)=>{
       }else if(body.error){
          callback('Unable to find the location')
       }else{
-        callback(undefined, body.current.weather_descriptions[0]+' starting in the evening. It is currently '+body.current.temperature+' degress out. But it feelslike '+body.current.feelslike+'.')
+        callback(undefined, 'The weather is '+body.current.weather_descriptions[0]+'. It is currently '+body.current.temperature+' degress out. But it feelslike '+body.current.feelslike+'.')
       }
     })
   }
