@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>WEATHER APP</title>
+    <link rel="icon" href="../../admin.png">
+</head>
+<body>
+    <div class="wrap">
+ {{>header}}
+
+    <p>Use this site to get your weather</p>
+
+    <form>
+        <input type="text" placeholder="Enter the location">
+        <button>Search</button>
+    </form>
+<br>
+    <p id="pone"></p>
+    <p id="ptwo"></p>
+    </div>
+   
+     {{>footer}}
+    <script type="text/javascript" src="ind.js"></script>
+</body>
+</html>
